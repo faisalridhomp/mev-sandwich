@@ -25,7 +25,7 @@
 //   --gas-bump <n>        gwei to add above victim gas price (default 1)
 //   --max-seconds <n>     run duration in seconds (default 0 = forever)
 
-const { ethers } = require('/home/hatch/workspace/ethers.js');
+const { ethers } = require('ethers');
 
 // ---------- config ----------
 const args = process.argv.slice(2);

@@ -1,4 +1,4 @@
-const { ethers } = require('/home/hatch/workspace/ethers.js');
+const { ethers } = require('ethers');
 const WSS = process.argv[2] || 'wss://bsc.publicnode.com';
 (async () => {
   const p = new ethers.WebSocketProvider(WSS);
