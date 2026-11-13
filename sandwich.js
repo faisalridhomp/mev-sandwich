@@ -46,7 +46,7 @@ const MAX_SECONDS = parseInt(flag('--max-seconds', '0'), 10);
 
 const ROUTER = '0x10ED43C718714eb63d5aA57B78B54704E256024E';
 const WBNB = '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c';
-const FACTORY = '0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c6';
+const FACTORY = '0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73'; // verified via router.factory() — was truncated to 39 chars, crashed at startup
 
 // PancakeSwap router swap selectors (4-byte)
 const SWAP_SELECTORS = {
